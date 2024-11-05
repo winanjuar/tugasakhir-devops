@@ -26,7 +26,7 @@ jobs:
     - name: Audit
       run: npm audit
   Test:
-    needs: Audit
+    needs: Install
     runs-on: ubuntu-latest
     steps:
     - name: Test
