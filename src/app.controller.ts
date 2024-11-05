@@ -7,9 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    console.log(
-      'Coba block direct push lagi after update target branch in ruleset',
-    );
+    console.log('Coba block direct push');
     return this.appService.getHello();
   }
 }
