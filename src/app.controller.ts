@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    console.log('Coba block direct push');
+    console.log('Coba block direct push lagi');
     return this.appService.getHello();
   }
 }
